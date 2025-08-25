@@ -2,6 +2,10 @@
 Showcase repo for MealLensAI – AI-powered calorie tracker with trainer-client hub.
 # MealLensAI
 
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Built with React Native](https://img.shields.io/badge/React%20Native-Expo-blue)
+![Backend: Supabase](https://img.shields.io/badge/Backend-Supabase-green)
+
 ## Overview
 MealLensAI is an AI-powered nutrition tracker with a built-in trainer-client hub. Users snap a photo of a meal to get instant macro estimates and save entries to a daily log. Trainers view client logs in real time and can adjust targets without spreadsheets or manual check-ins.
 

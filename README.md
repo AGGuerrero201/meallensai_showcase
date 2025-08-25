@@ -1,5 +1,6 @@
 # meallensai_showcase
 Showcase repo for MealLensAI – AI-powered calorie tracker with trainer-client hub.
+
 # MealLensAI
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
@@ -35,6 +36,14 @@ Most calorie trackers stop at the individual level. MealLensAI includes a traine
 - Adjust calorie and macro targets remotely  
 - Monitor compliance and detect trends  
 - Reduce manual check-ins and spreadsheets  
+
+## Database Design & Security
+The schema supports both client tracking and trainer dashboards:
+- **Clients** can only view and manage their own entries.  
+- **Trainers** can view entries for their assigned clients through the `trainer_clients` join table.  
+- **RLS policies** (Row-Level Security) ensure strict access control for privacy and security.  
+
+👉 See [schema.sql](snippets/schema.sql) for full table definitions and example RLS policies.  
 
 ## Roadmap
 - Apple Health + Google Fit integration  

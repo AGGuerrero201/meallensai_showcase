@@ -102,7 +102,9 @@ See [schema.sql](snippets/schema.sql) and [policies_readme.md](snippets/policies
 ## Demo
 Watch the demo video below to see MealLensAI in action:  
 
-[![MealLensAI Demo](https://img.youtube.com/vi/cK_y9STF2uk/0.jpg)](https://youtube.com/shorts/cK_y9STF2uk)  
+[![MealLensAI Demo](https://img.youtube.com/vi/cK_y9STF2uk/0.jpg)](https://www.youtube.com/watch?v=cK_y9STF2uk)  
+
+Direct link: https://www.youtube.com/watch?v=cK_y9STF2uk  
 
 **Note**  
 The AI meal recognition is stubbed in this demo. The Edge Function is implemented, but the video uses mocked responses to illustrate the intended flow.

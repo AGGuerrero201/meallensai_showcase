@@ -32,7 +32,7 @@ MealLensAI automates meal logging with image recognition and extends the tracker
 * APIs: LogMeal image recognition, USDA FoodData Central  
 * Auth: Supabase Auth with Row Level Security  
 
-## Trainer Client Hub what sets it apart
+## Trainer Client Hub (What Sets It Apart)
 Most calorie trackers stop at the individual level. MealLensAI includes a trainer dashboard where coaches can  
 * View client food logs in real time  
 * Adjust calorie and macro targets remotely directly in the app  
@@ -48,7 +48,37 @@ The schema supports both client tracking and trainer dashboards
 * Trainers can view entries and photos for their assigned clients through the trainer_clients join table  
 * RLS policies Row Level Security ensure strict access control for privacy and security  
 
-See schema.sql snippets schema.sql for full table definitions and example RLS policies.
+See [schema.sql](snippets/schema.sql) and [policies_readme.md](snippets/policies_readme.md) for full table definitions and example RLS policies.
+
+## Screenshots
+
+### Dashboard
+![Dashboard Main](screenshots/dashboard_main.PNG)  
+![Dashboard Progress](screenshots/dashboard_progress.PNG)  
+![Dashboard Progress Alt](screenshots/dashboard_progress_alt.PNG)  
+
+### Logging Meals
+![Log Meal Entry](screenshots/log_meal_entry.PNG)  
+
+### Goals
+![Goals Primary](screenshots/goals_primary.PNG)  
+![Goals Targets](screenshots/goals_targets.PNG)  
+
+### Profile
+![Profile Overview](screenshots/profile_overview.PNG)  
+![Profile Physical Info](screenshots/profile_physical_info.PNG)  
+
+### Trainer Hub
+![Trainer Hub Overview](screenshots/trainerhub_overview.PNG)  
+![Trainer Hub Macros](screenshots/trainerhub_macros.PNG)  
+![Trainer Hub Activity](screenshots/trainerhub_activity.PNG)  
+![Trainer Hub Check-ins](screenshots/trainerhub_checkins.PNG)  
+
+### Recipes
+![Recipes Empty](screenshots/recipes_empty.PNG)  
+
+### Subscription
+![Subscription Plans](screenshots/subscription_plans.PNG)  
 
 ## Roadmap
 * Apple Health and Google Fit integration  

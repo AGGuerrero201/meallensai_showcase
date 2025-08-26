@@ -10,6 +10,14 @@ Showcase repo for MealLensAI – AI powered calorie tracker with trainer client 
 ## Overview
 MealLensAI is an AI powered nutrition tracker with a built in trainer client hub. Users snap a photo of a meal to get instant macro estimates and save entries to a daily log. Trainers view client logs in real time and can adjust targets without spreadsheets or manual check ins.
 
+## Quick Start
+This is a read only showcase. App source is private. This repo includes schema snippets, policy examples, and a demo walkthrough.
+
+1. Browse the screenshots below  
+2. Review schema and policies in `snippets/`  
+3. Watch the short demo  
+4. Read the case study at the end  
+
 ## Problem
 Manual food logging is slow and often inaccurate. Trainers struggle to monitor client intake because most apps are built only for individuals, not coaching workflows.
 
@@ -94,5 +102,14 @@ See [schema.sql](snippets/schema.sql) and [policies_readme.md](snippets/policies
 ## Demo
 Demo video coming soon.
 
+## Case Study
+I built MealLensAI because I was frustrated with how slow and inaccurate food logging can be. Most apps are designed only for individuals, which makes coaching and accountability way harder than it needs to be. I wanted to create something that worked for both sides: clients who just want a faster way to log their meals, and trainers who need a clear dashboard to monitor progress without juggling spreadsheets and endless check-ins.
+
+As a personal trainer myself, it can get annoying flipping through different texts from clients, opening separate photos, and trying to keep track of macros across multiple conversations. It gets confusing and time consuming, and it’s easy to miss details. I wanted to centralize all of that into one place where both sides can see the same information and stay on track.
+
+The biggest challenges were setting up secure row level policies so client data stayed private, and figuring out how to normalize nutrition data from different sources like kcal versus kJ. I also had to think through how to design the trainer and client flows so they felt natural, but still respected security boundaries.
+
+In the end, I was able to build out a working system where clients can log meals, upload photos, and track their macros, while trainers can see those logs, adjust targets, and check visual progress all in one place. It’s not perfect yet — the AI meal recognition is still stubbed — but the foundation is there and I’m proud of how far it’s come. What I really took away from this is how important it is to design with security and real user workflows in mind from the start.  
+ 
 ## License
 MIT License for showcase repo. App code and brand remain private.

@@ -61,32 +61,32 @@ See [schema.sql](snippets/schema.sql) and [policies_readme.md](snippets/policies
 ## Screenshots
 
 ### Dashboard
-![Dashboard Main](screenshots/dashboard_main.PNG)  
-![Dashboard Progress](screenshots/dashboard_progress.PNG)  
-![Dashboard Progress Alt](screenshots/dashboard_progress_alt.PNG)  
+<img src="screenshots/dashboard_main.PNG" alt="Dashboard Main" width="400"/>  
+<img src="screenshots/dashboard_progress.PNG" alt="Dashboard Progress" width="400"/>  
+<img src="screenshots/dashboard_progress_alt.PNG" alt="Dashboard Progress Alt" width="400"/>  
 
 ### Logging Meals
-![Log Meal Entry](screenshots/log_meal_entry.PNG)  
+<img src="screenshots/log_meal_entry.PNG" alt="Log Meal Entry" width="400"/>  
 
 ### Goals
-![Goals Primary](screenshots/goals_primary.PNG)  
-![Goals Targets](screenshots/goals_targets.PNG)  
+<img src="screenshots/goals_primary.PNG" alt="Goals Primary" width="400"/>  
+<img src="screenshots/goals_targets.PNG" alt="Goals Targets" width="400"/>  
 
 ### Profile
-![Profile Overview](screenshots/profile_overview.PNG)  
-![Profile Physical Info](screenshots/profile_physical_info.PNG)  
+<img src="screenshots/profile_overview.PNG" alt="Profile Overview" width="400"/>  
+<img src="screenshots/profile_physical_info.PNG" alt="Profile Physical Info" width="400"/>  
 
 ### Trainer Hub
-![Trainer Hub Overview](screenshots/trainerhub_overview.PNG)  
-![Trainer Hub Macros](screenshots/trainerhub_macros.PNG)  
-![Trainer Hub Activity](screenshots/trainerhub_activity.PNG)  
-![Trainer Hub Check-ins](screenshots/trainerhub_checkins.PNG)  
+<img src="screenshots/trainerhub_overview.PNG" alt="Trainer Hub Overview" width="400"/>  
+<img src="screenshots/trainerhub_macros.PNG" alt="Trainer Hub Macros" width="400"/>  
+<img src="screenshots/trainerhub_activity.PNG" alt="Trainer Hub Activity" width="400"/>  
+<img src="screenshots/trainerhub_checkins.PNG" alt="Trainer Hub Check-ins" width="400"/>  
 
 ### Recipes
-![Recipes Empty](screenshots/recipes_empty.PNG)  
+<img src="screenshots/recipes_empty.PNG" alt="Recipes Empty" width="400"/>  
 
 ### Subscription
-![Subscription Plans](screenshots/subscription_plans.PNG)  
+<img src="screenshots/subscription_plans.PNG" alt="Subscription Plans" width="400"/>  
 
 ## Roadmap
 * Apple Health and Google Fit integration  

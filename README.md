@@ -110,7 +110,7 @@ Direct link: https://www.youtube.com/watch?v=cK_y9STF2uk
 The AI meal recognition is stubbed in this demo. The Edge Function is implemented, but the video uses mocked responses to illustrate the intended flow.
 
 ## Case Study
-I built MealLensAI because I was frustrated with how slow and inaccurate food logging can be. Most apps are designed only for individuals, which makes coaching and accountability way harder than it needs to be. I wanted to create something that worked for both sides: clients who just want a faster way to log their meals, and trainers who need a clear dashboard to monitor progress without juggling spreadsheets and endless check-ins.
+I built MealLensAI because I was frustrated with how slow and inaccurate food logging can be. Most apps are designed only for individuals, which makes coaching and accountability way harder than it needs to be. I wanted to create something that worked for both sides: fitness enthusiasts who just want a faster way to log their meals, and trainers who need a clear dashboard to monitor progress without juggling spreadsheets and endless check-ins.
 
 As a personal trainer myself, it can get annoying flipping through different texts from clients, opening separate photos, and trying to keep track of macros across multiple conversations. It gets confusing and time consuming, and it’s easy to miss details. I wanted to centralize all of that into one place where both sides can see the same information and stay on track.
 
